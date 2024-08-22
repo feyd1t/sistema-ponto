@@ -1,0 +1,107 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura da tela inteira */
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.clock {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left; /* Mantém os labels alinhados à esquerda */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: 500;
+}
+
+input[type="time"],
+input[type="date"],
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    transition: border-color 0.3s;
+}
+
+input[type="time"]:focus,
+input[type="date"]:focus,
+input[type="file"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    width: 48%;
+    transition: background-color 0.3s;
+}
+
+.btn-entrada {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-entrada:hover {
+    background-color: #218838;
+}
+
+.btn-saida {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-saida:hover {
+    background-color: #c82333;
+}
+
+.report {
+    margin-top: 20px;
+    color: #555;
+    padding: 15px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    font-size: 14px;
+}
